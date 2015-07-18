@@ -29,6 +29,10 @@ h1 {
   margin: 10px 0;
 }
 
+h2 {
+  font-size: 72px;
+}
+
 .logo {
   width: 100px;
   margin: 20px 0 20px 10px;
@@ -62,5 +66,11 @@ h1 {
 #mc-embedded-subscribe {
   margin: 0;
   clear: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
 }
 
