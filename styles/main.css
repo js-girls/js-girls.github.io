@@ -1,0 +1,66 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #eaeaea url(../img/girl.jpg) no-repeat right -100px;
+  background-size: cover;
+}
+
+a {
+  color: #212121
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.logo {
+  width: 100px;
+  margin: 20px 0 20px 10px;
+}
+
+.aright {
+  text-align: right;
+}
+
+.yellow {
+  background: #f7df1e;
+}
+
+.main-header {
+  margin-bottom: 20px;
+  color: #f7df1e;
+  background-color: #333;
+}
+.main-header a {
+  color: #f7df1e;
+}
+
+#mailchimp {
+  width: 400px;
+}
+
+.email {
+  width: 100%;
+}
+
+#mc-embedded-subscribe {
+  margin: 0;
+  clear: none;
+}
+
