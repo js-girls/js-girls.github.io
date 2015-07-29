@@ -59,8 +59,12 @@ h2 {
   font-size: 40px;
 }
 
+.newsletter {
+  padding-bottom: 80px;
+}
+
 #mailchimp {
-  width: 400px;
+  max-width: 400px;
 }
 
 .email {
