@@ -81,7 +81,7 @@ a {
   font-size: 0.9em;
   text-transform: uppercase;
   letter-spacing: 5;
-  color: #978edb;
+  color: #978ebd;
 }
 
 /* CONTENT */
@@ -110,11 +110,11 @@ a {
   }
 }
 .organizer-logo {
-  width: 4em;
+  width: 3.5em;
   margin-left: 0.5em;
 }
 .organizer-logo-left {
-  margin-left: calc(50% - 4.5em);
+  margin-left: calc(50% - 4em);
   margin-right: 0.5em;
 }
 
