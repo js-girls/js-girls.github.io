@@ -18,6 +18,15 @@ body {
   font-size: 18px;
   line-height: 1.4;
 }
+@media screen and (min-width: 600px) {
+  body {font-size: 20px;}
+}
+@media screen and (min-width: 1200px) {
+  body {font-size: 22px;}
+}
+@media screen and (min-width: 1800px) {
+  body {font-size: 24px;}
+}
 input {
   font-family: "Ubuntu Mono", Helvetica, Arial, monospace;
   font-size: 1em;
@@ -38,12 +47,28 @@ a {
 }
 @media screen and (min-width: 340px) {
   .header {
-    background-size: 160vw;
+    padding-top: 5em;
   }
 }
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 400px) {
+  .header {
+    background-size: 150vw;
+    padding-top: 6em;
+  }
+}
+@media screen and (min-width: 550px) {
   .header {
     background-size: 120vw;
+  }
+}
+@media screen and (min-width: 700px) {
+  .header {
+    background-size: 100vw;
+  }
+}
+@media screen and (min-width: 950px) {
+  .header {
+    background-size: 45em;
   }
 }
 .logo {
@@ -69,6 +94,21 @@ a {
     width: 80%;
   }
 }
+@media screen and (min-width: 600px) {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .container {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 24em;
+  }
+}
 .organizer-logo {
   width: 4em;
 }
@@ -83,10 +123,9 @@ a {
 .newsletter {
   margin-bottom: 3em;
 }
-#mailchimp {
-}
 .email,
-.button {
+.button,
+#mc-embedded-subscribe {
   width: 100%;
   margin: 0.5em 0;
   padding: 0.8em;
@@ -96,12 +135,23 @@ a {
 }
 .email {
   margin-top: 1em;
+  background-color: #e0dcf8;
 }
-.button {
+.button, #mc-embedded-subscribe {
   background-color: #e8e88f;
   font-weight: bold;
 }
+@media screen and (min-width: 480px) {
+  .email {
+    display: inline-block;
+    width: 10%;
+    margin-right: 0;
+  }
+  .button, #mc-embedded-subscribe {
+    display: inline-block;
+    width: 25%;
+    margin-left: 0;
+  }
+}
 #mc-embedded-subscribe {
-  margin: 0;
-  clear: none;
 }

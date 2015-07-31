@@ -25,12 +25,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="599.7788"
-     inkscape:cy="40.292391"
+     inkscape:zoom="3.959798"
+     inkscape:cx="574.90923"
+     inkscape:cy="102.95303"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -59,7 +59,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -223,27 +223,15 @@
            x="4031.4004"
            y="1985.519">+</tspan></text>
       <text
-         xml:space="preserve"
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.40553284px;line-height:110.00000238%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;writing-mode:lr-tb;text-anchor:start;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#e0dcf8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         x="-4125.5615"
-         y="1467.2625"
-         id="text9354"
-         sodipodi:linespacing="110%"
-         transform="matrix(-0.8660254,-0.5,0.5,-0.8660254,0,0)"><tspan
-           id="tspan9356"
-           sodipodi:role="line"
-           x="-4125.5615"
-           y="1467.2625">{</tspan></text>
-      <text
-         transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,0,0)"
+         transform="matrix(-0.96592583,0.25881905,0.25881905,0.96592583,0,0)"
          sodipodi:linespacing="110%"
          id="text9358"
-         y="-299.42233"
-         x="4165.6597"
+         y="1836.4902"
+         x="-3813.4019"
          style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:89.20793152px;line-height:110.00000238%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;writing-mode:lr-tb;text-anchor:start;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#e0dcf8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          xml:space="preserve"><tspan
-           y="-299.42233"
-           x="4165.6597"
+           y="1836.4902"
+           x="-3813.4019"
            sodipodi:role="line"
            id="tspan9360">[</tspan></text>
       <text
@@ -482,5 +470,16 @@
            x="3842.6487"
            y="812.51892">*</tspan></text>
     </g>
+    <text
+       sodipodi:linespacing="110%"
+       id="text9386-3"
+       y="309.96259"
+       x="-655.06335"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60.25353622px;line-height:110.00000238%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;writing-mode:lr-tb;text-anchor:start;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#e0dcf8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       xml:space="preserve"><tspan
+         y="309.96259"
+         x="-655.06335"
+         sodipodi:role="line"
+         id="tspan9388-6">*</tspan></text>
   </g>
 </svg>
