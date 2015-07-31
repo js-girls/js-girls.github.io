@@ -1,9 +1,9 @@
+/* RESET & TYPOGRAPHY */
 *,
 *:after,
 *:before {
   box-sizing: border-box;
 }
-
 html,
 body {
   margin: 0;
@@ -11,80 +11,97 @@ body {
   height: 100%;
   width: 100%;
 }
-
 body {
-  background: #eaeaea url(../img/girl.jpg) no-repeat right -100px;
-  background-size: cover;
+  color: #e0dcf8;
+  background-color: #353342;
+  font-family: "Ubuntu Mono", Helvetica, Arial, monospace;
+  font-size: 18px;
+  line-height: 1.4;
 }
-
+input {
+  font-family: "Ubuntu Mono", Helvetica, Arial, monospace;
+  font-size: 1em;
+}
 a {
-  color: #212121
+  color: #e8e88f;
+  font-weight: bold;
 }
 
-img {
-  max-width: 100%;
+/* HEADER */
+.header {
+  padding: 4em 0 0.2em;
+  text-align: center;
+  background-image: url(../img/header.svg);
+  background-size: 200vw;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
-
-h1 {
-  margin: 10px 0;
+@media screen and (min-width: 340px) {
+  .header {
+    background-size: 160vw;
+  }
 }
-
-h2 {
-  font-size: 72px;
+@media screen and (min-width: 420px) {
+  .header {
+    background-size: 120vw;
+  }
 }
-
 .logo {
-  width: 100px;
-  margin: 20px 0 20px 10px;
+  font-size: 2.2em;
+  margin-bottom: 0;
+  color: #e8e88f;
+}
+.coming-soon {
+  margin-top: 0;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 5;
+  color: #978edb;
 }
 
-.aright {
-  text-align: right;
+/* CONTENT */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 350px) {
+  .container {
+    width: 80%;
+  }
+}
+.organizer-logo {
+  width: 4em;
 }
 
-.yellow {
-  background: #f7df1e;
+/* FOOTER */
+.footer {
+  margin: 3em 0;
+  text-align: center;
 }
 
-.main-header {
-  margin-bottom: 20px;
-  color: #f7df1e;
-  background-color: #333;
+/* MAILCHIMP FORM */
+.newsletter {
+  margin-bottom: 3em;
 }
-.main-header a {
-  color: #f7df1e;
-}
-.main-header h2 {
-  color: #555;
-  font-size: 40px;
-}
-
 #mailchimp {
-  max-width: 400px;
 }
-
-.email {
+.email,
+.button {
   width: 100%;
+  margin: 0.5em 0;
+  padding: 0.8em;
+  border: 0;
+  color: #353342;
+  border-radius: 0.3em;
 }
-
+.email {
+  margin-top: 1em;
+}
+.button {
+  background-color: #e8e88f;
+  font-weight: bold;
+}
 #mc-embedded-subscribe {
   margin: 0;
   clear: none;
 }
-
-footer {
-  position: fixed;
-  bottom: 10px;
-  left: 20px;
-}
-
-@media (max-width: 400px) {
-  body {
-    background-image: none;
-  }
-  footer {
-    position: static;
-    margin: 30px 0;
-  }
-}
-
