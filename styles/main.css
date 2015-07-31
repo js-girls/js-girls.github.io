@@ -111,6 +111,11 @@ a {
 }
 .organizer-logo {
   width: 4em;
+  margin-left: 0.5em;
+}
+.organizer-logo-left {
+  margin-left: calc(50% - 4.5em);
+  margin-right: 0.5em;
 }
 
 /* FOOTER */
@@ -144,7 +149,7 @@ a {
 @media screen and (min-width: 480px) {
   .email {
     display: inline-block;
-    width: 10%;
+    width: 70%;
     margin-right: 0;
   }
   .button, #mc-embedded-subscribe {
@@ -153,5 +158,6 @@ a {
     margin-left: 0;
   }
 }
-#mc-embedded-subscribe {
+#mce-success-response {
+  color: #e8e88f;
 }
