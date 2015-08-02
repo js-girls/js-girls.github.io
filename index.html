@@ -2,51 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>JS Girls</title>
-    <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css"/>
+    <title>js-girls</title>
     <link rel="stylesheet" href="//cdn-images.mailchimp.com/embedcode/classic-081711.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles/main.css">
-<!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
-mixpanel.init("527d3f3a5dfe6cac65f1f95fe31207af");</script><!-- end Mixpanel -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- start Mixpanel -->
+    <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+    for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+    mixpanel.init("527d3f3a5dfe6cac65f1f95fe31207af");</script>
+    <!-- end Mixpanel -->
   </head>
   <body>
-    <header class="main-header">
-      <div class="container">
-        <div class="row">
-          <div class="four columns">
-            <h1>{ JS Girls }</h1>
-            <h2>coming soon</h2>
-          </div>
-          <div class="eight columns aright">
-            <a href="http://milanojs.com"><img src="img/mijs.svg" class="logo" alt="Milano JS"/></a>
-            <a href="http://www.girlsintech.it"><img src="img/git.png" class="logo" alt="Girls in Tech"/></a>
-          </div>
-        </div>
-      </div>
+    <header class="header">
+      <h1 class="logo">js-girls</h1>
+      <h3 class="coming-soon">coming soon</h3>
     </header>
-    <div class="container main-container">
-      <section class="dark row">
-        <div class="six columns">
-          <h3>About</h3>
-          <p>JS Girls is a 1-day workshop dedicated to girls and women willing to learn and enjoy one of the most used language for the web.</p>
 
-          <p>JS Girls aims to involve more female developers within the Javascript community. You will learn basics of programming and get introduced to the world of today's Javascript technology. JS Girls is a joint initiative of
-            <strong><a href="http://milanojs.com">Milano JS</a></strong> and <strong><a href="http://www.girlsintech.it/">Girls in Tech</a></strong> Italy.</p>
-        </div>
-      </section>
+    <section class="container">
+      <p>js-girls is a 1-day workshop for girls and women who want to learn Javascript, one of the most popular languages for web development.</p>
+      <p>You will learn the basics of programming and get an introduction to the world of today's Javascript technology.</p>
+
       <section class="newsletter">
         <!-- Begin MailChimp Signup Form -->
         <div id="mailchimp">
           <form action="//jsgirls.us11.list-manage.com/subscribe/post?u=e8b18d11139d1ca346a1959a9&amp;id=270522dca0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
               <div class="mc-field-group">
-                <label for="mce-EMAIL">Please subscribe to get in touch</label>
-                <input type="email" placeholder="enter your e-mail address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <label for="mce-EMAIL">To be notified when the workshop launches, follow us on <a href="https://twitter.com/javascriptgirls">Twitter</a> or sign up for email notifications:</label>
+                <input type="email" placeholder="your@email.address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <input type="submit" value="sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
               </div>
               <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
@@ -56,13 +45,17 @@ mixpanel.init("527d3f3a5dfe6cac65f1f95fe31207af");</script><!-- end Mixpanel -->
             </div>
           </form>
         </div>
-        <script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
         <!--End mc_embed_signup-->
+
       </section>
-      <footer>
-        <p>&copy; 2015 JS Girls - Follow us on <!-- <a href="https://www.facebook.com/javascriptgirls">Facebook</a> and --> <a href="https://twitter.com/javascriptgirls">Twitter</a></p>
-      </footer>
-    </div>
+
+      <p>js-girls is a joint initiative by
+        <strong><a href="http://milanojs.com">Milano JS</a></strong> and <strong><a href="http://www.girlsintech.it/">Girls in Tech</a></strong> Italy.</p>
+      <a href="http://milanojs.com"><img src="img/mijs.svg" class="organizer-logo organizer-logo-left" alt="Milano JS"/></a>
+      <a href="http://www.girlsintech.it"><img src="img/git.svg" class="organizer-logo" alt="Girls in Tech"/></a>
+    </section>
+    <footer class="footer">&copy; 2015 js-girls</footer>
   </body>
   <script>
 	mixpanel.track('page viewed', {
