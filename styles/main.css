@@ -51,6 +51,29 @@ a {
   background-position: center top;
   background-repeat: no-repeat;
 }
+.banner {
+  width: 640px;
+  margin: 20px auto 10px;
+  background: #FFF143;
+  border-radius: 8px;
+  padding: 40px 20px;
+}
+.banner__title {
+  color: #555;
+  margin: 0;
+}
+.banner__text {
+  color: #666;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.banner__cta a:link {
+  background: #353342;
+  padding: 10px;
+  color: #FFF143;
+  border-radius: 4px;
+  text-decoration: none;
+}
 @media screen and (min-width: 340px) {
   .header {
     padding-top: 5em;
