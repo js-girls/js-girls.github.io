@@ -23,9 +23,15 @@ body {
 }
 @media screen and (min-width: 1200px) {
   body {font-size: 22px;}
+  .container-wide {
+    font-size: 17px;
+  }
 }
 @media screen and (min-width: 1800px) {
   body {font-size: 24px;}
+  .container-wide {
+    font-size: 17px;
+  }
 }
 input {
   font-family: "Ubuntu Mono", Helvetica, Arial, monospace;
@@ -76,6 +82,9 @@ a {
   margin-bottom: 0;
   color: #e8e88f;
 }
+.logotipo {
+  color: #e8e88f;
+}
 .coming-soon {
   margin-top: 0;
   font-size: 0.9em;
@@ -83,7 +92,10 @@ a {
   letter-spacing: 0.27em;
   color: #978ebd;
 }
-
+.nav li {
+  display: inline-block;
+  list-style-type: none;
+}
 /* CONTENT */
 .container {
   width: 90%;
@@ -107,6 +119,9 @@ a {
 @media screen and (min-width: 1000px) {
   .container {
     width: 24em;
+  }
+  .container-wide {
+    width: 44em;
   }
 }
 .organizer-logo {
