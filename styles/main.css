@@ -199,3 +199,9 @@ a {
 #mce-success-response {
   color: #e8e88f;
 }
+
+.eventbrite-section {
+  margin-top: 50px;
+  /* temporary hack */
+  margin-bottom: -50px;
+}
