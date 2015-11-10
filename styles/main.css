@@ -67,6 +67,9 @@ a {
   padding: 20px;
   margin-bottom: 20px;
 }
+.banner__text ul {
+  padding-left: 0;
+}
 .banner__cta a:link {
   background: #353342;
   padding: 15px 20px;
@@ -114,6 +117,9 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.27em;
   color: #978ebd;
+}
+.nav {
+  padding-left: 0;
 }
 .nav li {
   display: inline-block;
