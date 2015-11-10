@@ -52,7 +52,7 @@ a {
   background-repeat: no-repeat;
 }
 .banner {
-  width: 640px;
+  /*width: 640px;*/
   margin: 20px auto 10px;
   background: #FFF143;
   border-radius: 8px;
