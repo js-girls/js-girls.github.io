@@ -52,11 +52,10 @@ a {
   background-repeat: no-repeat;
 }
 .banner {
-  /*width: 640px;*/
   margin: 20px auto 10px;
-  background: #FFF143;
   border-radius: 8px;
-  padding: 40px 20px;
+  padding: 20px 20px 0;
+  border: 2px solid #FFF143;
 }
 .banner__title {
   color: #555;
@@ -69,13 +68,11 @@ a {
 }
 .banner__text ul {
   padding-left: 0;
+  list-style-type:none;
 }
-.banner__cta a:link {
-  background: #353342;
-  padding: 15px 20px;
+
+.banner__text li a {
   color: #FFF143;
-  border-radius: 4px;
-  text-decoration: none;
 }
 @media screen and (min-width: 340px) {
   .header {
