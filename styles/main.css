@@ -63,13 +63,13 @@ a {
   margin: 0;
 }
 .banner__text {
-  color: #666;
+  color: #504a5a;
   padding: 20px;
   margin-bottom: 20px;
 }
 .banner__cta a:link {
   background: #353342;
-  padding: 10px;
+  padding: 15px 20px;
   color: #FFF143;
   border-radius: 4px;
   text-decoration: none;
