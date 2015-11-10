@@ -64,8 +64,7 @@ a {
 }
 .banner__text {
   color: #504a5a;
-  padding: 20px;
-  padding-bottom: 0;
+  padding: 0;
   margin-bottom: 20px;
 }
 .banner__text ul {
