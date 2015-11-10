@@ -18,65 +18,45 @@
     <!-- end Mixpanel -->
   </head>
   <body>
+    <a href="/italy/milan/" style="text-decoration: none">
     <header class="header">
       <h1 class="logo">js-girls</h1>
       <h3 class="coming-soon">28 Novembre 2015</h3>
       <ul class="nav">
-        <li><a href="index.html">index</a></li>
         <li><a href="about.html">about</a></li>
         <li><a href="iscriviti.html">iscriviti</a></li>
         <li><a href="info.html">info</a></li>
       </ul>
     </header>
+    </a>
 
     <section class="container container-wide">
-      <h3>#JSgirls: il primo workshop di Javascript per le donne al mondo</h3>
-      <h4>27 e 28 novembre 2015 @ Google Italia, Milano <br />
-      Iscriviti subito! Le iscrizioni sono aperte dal 16 al 27 novembre.</h4>
+      <h3><span class="logotipo">js-girls</span>: il primo workshop su Javascript per le donne al mondo</h3>
+      <h4>28 Novembre 2015 @ Google Italia, Milano <br />
+      <a href="/italy/milan/iscriviti.html">Iscriviti subito!</a> Le iscrizioni sono aperte dal 16 al 27 novembre.</h4>
 
-      <h3>JS GIRLS</h3>
-      <p>Ti piacerebbe imparare a costruire siti ma non sai da che parte iniziare? Vorresti avvicinarti a Javascript, il linguaggio più utilizzato sul web, ma non hai ancora trovato riferimenti chiari?</p>
-      <p>Ti aiutiamo noi con un evento tutto al femminile organizzato da Milano JS, in collaborazione con Girls in Tech Italia, con il supporto di Google Italia.</p>
+      <h3 class="logotipo">js-girls</h3>
+      <p>Ti piacerebbe imparare a costruire siti ma non sai da che parte iniziare?</p>
+      <p>Vorresti avvicinarti a Javascript, il linguaggio più utilizzato sul web, ma non hai ancora trovato riferimenti chiari?</p>
+      <p>Ti aiutiamo noi con un evento tutto al femminile organizzato da MilanoJS, in collaborazione con Girls in Tech Italia, con il supporto di Google Italia.</p>
       <p>Si inizia venerdì 27 alle 18 con un Installation party per darti modo di incontrare i mentors e di conoscere il tuo team di lavoro, su cui dovrai contare durante la giornata di sabato.</p>
       <p>Ti aspettiamo presso la sede di Google Italia a Milano in via Federico Confalonieri, 4 per il primo workshop al mondo volto alla formazione su JavaScript delle donne!</p>
 
       <p>Non è richiesta nessuna conoscenza pregressa di programmazione, ma solo un po’ di dimestichezza con il computer, dell’inglese e tanta voglia di imparare.</p>
       <p>Il workshop è gratuito e le donne provenienti da qualsiasi background sono invitate a partecipare.</p>
 
-      <section class="newsletter">
-        <!-- Begin MailChimp Signup Form -->
-        <div id="mailchimp">
-          <form action="//jsgirls.us11.list-manage.com/subscribe/post?u=e8b18d11139d1ca346a1959a9&amp;id=270522dca0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-              <div class="mc-field-group">
-                <label for="mce-EMAIL">Inserisci la tua email nel form sottostante per essere informato sulle prossime novità</label>
-                <input type="email" placeholder="your@email.address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                <input type="submit" value="sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
-              </div>
-              <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px;"><input type="text" name="b_e8b18d11139d1ca346a1959a9_270522dca0" tabindex="-1" value=""></div>
-            </div>
-          </form>
-        </div>
-        <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-        <!--End mc_embed_signup-->
-
-      </section>
-
-      <p>js-girls is a joint initiative by
-        <strong><a href="http://milanojs.com">Milano JS</a></strong> and <strong><a href="http://www.girlsintech.it/">Girls in Tech</a></strong> Italy.</p>
+      <br />
+      <p>js-girls è un'idea di
+        <strong><a href="http://milanojs.com">Milano JS</a></strong> e <strong><a href="http://www.girlsintech.it/">Girls in Tech</a></strong> Italy. Empowered by Google.</p>
       <a href="http://milanojs.com"><img src="../../img/mijs.svg" class="organizer-logo organizer-logo-left" alt="Milano JS"/></a>
       <a href="http://www.girlsintech.it"><img src="../../img/git.svg" class="organizer-logo" alt="Girls in Tech"/></a>
     </section>
     <footer class="footer">&copy; 2015 js-girls</footer>
   </body>
   <script>
-	mixpanel.track('page viewed', {
-    	  'page name' : document.title,
-    	  'url' : window.location.pathname
-	});
+  mixpanel.track('page viewed', {
+    'page name' : document.title,
+    'url' : window.location.pathname
+  });
   </script>
 </html>
