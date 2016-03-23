@@ -18,6 +18,26 @@ body {
   font-size: 18px;
   line-height: 1.4;
 }
+h2,
+h3,
+h4 {
+  color: #fff;
+}
+
+h2:before,
+h3:before,
+h4:before {
+  content: '{ ';
+  color: #8AFD9B;
+}
+
+h2:after,
+h3:after,
+h4:after {
+  content: ' }';
+  color: #8AFD9B;
+}
+
 @media screen and (min-width: 600px) {
   body {font-size: 20px;}
 }
