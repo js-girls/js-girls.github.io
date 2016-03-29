@@ -184,6 +184,19 @@ a {
   text-align: center;
 }
 
+.mediapartners a {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.mediapartners a:last-child {
+  margin-right: 0;
+}
+
+.mediapartners a img {
+  max-width: 100%;
+}
+
 /* MAILCHIMP FORM */
 .newsletter {
   margin-bottom: 3em;
