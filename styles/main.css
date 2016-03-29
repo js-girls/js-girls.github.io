@@ -25,15 +25,13 @@ h4 {
 }
 
 h2:before,
-h3:before,
-h4:before {
+h3:before {
   content: '{ ';
   color: #8AFD9B;
 }
 
 h2:after,
-h3:after,
-h4:after {
+h3:after {
   content: ' }';
   color: #8AFD9B;
 }
@@ -182,6 +180,7 @@ a {
 /* FOOTER */
 .footer {
   margin: 3em 0;
+  border-top: 1px solid currentColor;
   text-align: center;
 }
 
