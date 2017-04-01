@@ -1,0 +1,21 @@
+.title {
+    color: #ec00ff;
+    text-align: center;
+}
+
+.location {
+    color: white;
+    font-weight:bold;
+}
+
+.date {
+    color: white;
+}
+
+.event{
+    border:2px solid blueviolet;
+    display: block;
+    padding:8px 12px;
+    margin-bottom:5px;
+}
+
