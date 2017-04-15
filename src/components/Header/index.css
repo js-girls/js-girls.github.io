@@ -10,6 +10,10 @@
 
   color: var(--colorNeutralLight);
 }
+.logo{
+  padding:1rem 5rem;
+  width:350px;
+}
 
 .nav {
   display: flex;

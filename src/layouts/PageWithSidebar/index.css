@@ -23,9 +23,11 @@
 
 .text{
   color: white;
-  font-weight:600;
+  font-weight: 600;
   max-width: 700px;
-  margin:0 auto;
+  font-size: 24px;
+  line-height: 1.5em;
+  margin: 0 auto;
 }
 
 .header {
@@ -34,12 +36,10 @@
   padding: 5rem 0;
   padding: 10vh 0;
   text-align: center;
-  background: linear-gradient(
-    to bottom,
-    var(--colorPrimaryDark),
-    color(var(--colorPrimary) a(0.2))
-  );
+  background: linear-gradient(transparent, #1b002c);
   height: 300px;
+  align-items: center;
+  justify-content: center;
 }
 
 .heading {
@@ -57,11 +57,12 @@
 }
 
 .pageContent {
-  margin: 1rem 0;
+  margin: -5rem;
 }
 
 .content {
   display: flex;
+  margin-bottom:10rem;
 }
 
 .sidebar {
@@ -87,17 +88,4 @@
   & img {
     max-width: 100%;
   }
-}
-
-p{
-  color: white;
-}
-
-
-h2, h3{
-  color: #ec00ff;
-}
-
-h2{
-  font-size:25px;
 }

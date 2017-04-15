@@ -89,3 +89,16 @@ hr {
   opacity: 0.2;
   margin: 2rem 0;
 }
+p{
+  color: white;
+}
+
+
+h2, h3{
+  color: #ec00ff;
+}
+
+h2{
+  font-size:24px;
+}
+

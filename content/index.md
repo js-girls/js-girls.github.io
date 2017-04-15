@@ -13,6 +13,7 @@ During the day, tutors will follow you and guide you through the creation of a b
 
 JS Girls doesn’t want to be a “women only” JS Club, it aims to be the starting block to help you stepping inside a world that, sadly, is almost exclusively made of men.
 
+<!--
 ## Organize
 
 Do you want to organise JS Girls in your city? Fill out this form, it will be a way to know each other better. From our side, we’ll give you all the support you need to make your event a success!
@@ -27,3 +28,4 @@ You’ll receive some documentation explaining step by step how to build the web
 
 ### Support
 JS Girls is possible not just thanks to the wonderful volunteers that give their own free time, but also thanks to the sponsors that cover the expenses that are necessary to organise this kind of event. Do you want to sponsor JS Girls? Let’s talk about it! You can also support JS Girls as a global or local media partner, or helping us to spread what we do and our events.
+-->
