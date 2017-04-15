@@ -3,9 +3,14 @@ import React, {PropTypes} from 'react'
 const MediaPartners = ({mediaPartners}) => (
     <div>
         {
-            mediaPartners.map(partner => (
-                <div>partner.name</div>
-            ))
+            mediaPartners.map(partner => {
+                    return (
+                        <div key={partner.name}>
+                            partner.name
+                        </div>
+                    )
+                }
+            )
         }
     </div>
 )
