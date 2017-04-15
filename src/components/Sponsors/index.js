@@ -2,18 +2,18 @@ import React, {PropTypes} from 'react';
 
 import styles from "./index.css"
 
-const MediaPartners = ({mediaPartners}) => (
+const Sponsors = ({sponsors}) => (
     <div>
         <div>
-            <h2>Media Partners</h2>
+            <h2 className={styles.title}>Empowered by</h2>
         </div>
-        <div className={styles.mediaPartners}>
+        <div className={styles.sponsors}>
             {
-                mediaPartners.map(partner => {
+                sponsors.map(sponsor => {
                         return (
 
-                            <a>
-                                <img src={partner.logo}/>
+                            <a className={styles.logo}>
+                                <img src={sponsor.logo}/>
                             </a>
                         )
                     }
@@ -23,8 +23,8 @@ const MediaPartners = ({mediaPartners}) => (
     </div>
 )
 
-MediaPartners.propTypes = {
-    mediaPartners: PropTypes.arrayOf(
+Sponsors.propTypes = {
+    sponsors: PropTypes.arrayOf(
         PropTypes.shape({
             name: PropTypes.string.isRequired,
             logoUrl: PropTypes.string.isRequired,
@@ -32,4 +32,4 @@ MediaPartners.propTypes = {
     )
 }
 
-export default MediaPartners
+export default Sponsors

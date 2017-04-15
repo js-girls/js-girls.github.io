@@ -1,0 +1,13 @@
+.sponsors{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo:not(:first-child) {
+    bottom: -27px;
+    position: relative;
+}
+
+.title{
+    margin:0;
+}
