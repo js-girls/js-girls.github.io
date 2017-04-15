@@ -1,21 +1,13 @@
 import React from "react"
-
+import MediaPartners from '../MediaPartners'
+import PhenomicReference from '../PhenomicReference'
 import styles from "./index.css"
+import mediaPartners from '../../media-partners'
 
 const Footer = () => (
   <footer className={ styles.footer }>
-    { /* If you like Phenomic, this is a way to share the love ;) */ }
-    <p>
-      <a
-        href={ process.env.PHENOMIC_HOMEPAGE }
-        className={ styles.phenomicReference }
-      >
-        { "Website generated with " }
-        <span className={ styles.phenomicReferenceName }>
-          {  `<${ process.env.PHENOMIC_NAME} />` }
-        </span>
-      </a>
-    </p>
+    <MediaPartners mediaPartners={mediaPartners}/>
+    <PhenomicReference/>
   </footer>
 )
 

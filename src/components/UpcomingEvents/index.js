@@ -27,7 +27,7 @@ UpcomingEvents.propTypes = {
         PropTypes.shape({
             name: PropTypes.string.isRequired,
             location: PropTypes.string.isRequired,
-            date: PropTypes.number.isRequired
+            date: PropTypes.string.isRequired
         })
     ).isRequired
 }

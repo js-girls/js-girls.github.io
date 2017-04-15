@@ -89,3 +89,29 @@
     max-width: 100%;
   }
 }
+
+p{
+  color: white;
+}
+
+
+h2, h3{
+  color: #ec00ff;
+}
+
+h2{
+  font-size:25px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 1rem 0.75rem;
+  }
+  .content {
+    flex-direction: column-reverse;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 0;
+  }
+}

@@ -17,3 +17,7 @@ npm start
 ```sh
 npm run build
 ```
+## code of conduct
+
+By participating, you are expected to honor this code.
+[code-of-conduct](http://todogroup.org/opencodeofconduct/#JS-Girls/info@js-girls.org)

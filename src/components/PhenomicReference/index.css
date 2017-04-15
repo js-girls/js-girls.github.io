@@ -1,0 +1,10 @@
+.phenomicReference {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    color: inherit;
+    text-decoration: none;
+}
+
+.phenomicReferenceName {
+    font-weight: 100;
+}

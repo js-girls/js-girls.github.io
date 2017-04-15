@@ -1,11 +1,8 @@
 import React, { PropTypes } from "react"
 import Helmet from "react-helmet"
 import warning from "warning"
-import { BodyContainer, joinUri, Link } from "phenomic"
-
-import Button from "../../components/Button"
+import { BodyContainer, joinUri } from "phenomic"
 import Loading from "../../components/Loading"
-
 import styles from "./index.css"
 
 const Page = (
@@ -16,8 +13,8 @@ const Page = (
     head,
     body,
     header,
-    footer,
     children,
+    footer
   },
   {
     metadata: { pkg },
@@ -48,6 +45,7 @@ const Page = (
     { name: "twitter:description", content: head.description },
     { name: "twitter:image", content: socialImage },
     { name: "description", content: head.description },
+    { name: "viewport", content: "width=device-width, initial-scale=1" }
   ]
 
   return (
@@ -83,11 +81,10 @@ const Page = (
             : <BodyContainer>{ body }</BodyContainer>
           }
         </div>
-          <div className={styles.sidebar}>
-            { children }
+        <div className={styles.sidebar}>
+          { children }
           </div>
         </div>
-        { footer }
       </div>
     </div>
   )
