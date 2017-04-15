@@ -108,7 +108,7 @@ h2{
 
 @media (max-width: 768px) {
   .wrapper {
-    padding: 1rem 0.75rem;
+    padding: 1rem 1.5rem;
   }
   .content {
     flex-direction: column-reverse;

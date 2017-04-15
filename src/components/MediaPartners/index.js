@@ -6,7 +6,7 @@ const MediaPartners = ({mediaPartners}) => (
             mediaPartners.map(partner => {
                     return (
                         <div key={partner.name}>
-                            partner.name
+                            {partner.name}
                         </div>
                     )
                 }
