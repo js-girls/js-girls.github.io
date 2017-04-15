@@ -56,9 +56,6 @@
   margin-top: 2rem;
 }
 
-.pageContent {
-  margin: -5rem;
-}
 
 .content {
   display: flex;
@@ -101,6 +98,12 @@ h2, h3{
 
 h2{
   font-size:25px;
+}
+
+@media (min-width: 769px) {
+  .pageContent {
+    margin: -5rem;
+  }
 }
 
 @media (max-width: 768px) {
