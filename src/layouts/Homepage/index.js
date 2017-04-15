@@ -7,13 +7,13 @@ const events = [
     {
         name: 'roma-2017',
         location: 'Rome',
-        date:  Date.now()
+        date:  'to be announced'
     },
-    
+
     {
         name: 'barcellona-2017',
         location: 'Barcellona',
-        date:  Date.now()
+        date:  'to be announced'
     }
 ]
 
