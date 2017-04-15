@@ -4,8 +4,9 @@
 }
 
 .location {
-    color: white;
+    color: #ec00ff;
     font-weight:bold;
+    font-size:20px;
 }
 
 .date {
