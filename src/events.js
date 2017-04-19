@@ -7,7 +7,7 @@ const events = [
     },
 
     {
-        name: 'barcellona-2017',
+        name: 'verona-2017',
         location: 'Verona',
         date:  'to be announced',
         disableLink: true
