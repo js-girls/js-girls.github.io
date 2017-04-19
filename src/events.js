@@ -8,7 +8,7 @@ const events = [
 
     {
         name: 'barcellona-2017',
-        location: 'Barcellona',
+        location: 'Verona',
         date:  'to be announced',
         disableLink: true
     }
