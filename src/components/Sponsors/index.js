@@ -13,7 +13,7 @@ const Sponsors = ({sponsors}) => (
                         return (
 
                             <a className={styles.logo}>
-                                <img src={sponsor.logo}/>
+                                <img src={sponsor.logo} className={styles.img}/>
                             </a>
                         )
                     }

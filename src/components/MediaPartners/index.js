@@ -13,7 +13,7 @@ const MediaPartners = ({mediaPartners}) => (
                         return (
 
                             <a>
-                                <img src={partner.logo}/>
+                                <img src={partner.logo} className={styles.img}/>
                             </a>
                         )
                     }

@@ -2,3 +2,17 @@
     display: flex;
     justify-content: space-around;
 }
+
+.img{
+    padding:.5rem;
+    max-width:100%;
+    display: block;
+    height:auto;
+    margin: 0 auto;
+}
+
+@media  (max-width:767px) {
+    .mediaPartners{
+        display: block;
+    }
+}

@@ -11,8 +11,10 @@
   color: var(--colorNeutralLight);
 }
 .logo{
-  padding:1rem 5rem;
-  width:350px;
+  padding:.5rem;
+  max-width:100%;
+  display: block;
+  height:auto;
 }
 
 .nav {
@@ -56,4 +58,10 @@
   width: 14px;
   height: 14px;
   vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .logo{
+    margin: 0 auto;
+  }
 }

@@ -2,12 +2,25 @@
     display: flex;
     justify-content: space-around;
 }
+.title{
+    margin:0;
+}
+
+.img{
+    padding:.5rem;
+    max-width:100%;
+    display: block;
+    height:auto;
+    margin:0 auto;
+}
 
 .logo:not(:first-child) {
     bottom: -27px;
     position: relative;
 }
 
-.title{
-    margin:0;
+@media (max-width: 767px) {
+    .sponsors {
+        display: block;
+    }
 }
