@@ -11,10 +11,10 @@
   color: var(--colorNeutralLight);
 }
 .logo{
-  padding:.5rem;
   max-width:100%;
   display: block;
   height:auto;
+  margin: 2vh 4vw;
 }
 
 .nav {

@@ -6,7 +6,7 @@ const UpcomingEvents = (props) => {
 
     return (
         <div className={styles.wrapper}>
-            <h2 className={styles.title}>Upcoming Events</h2>
+            <h3 className={styles.title}>Upcoming Events</h3>
             <div>
                 {
                     props.events.map(event => {

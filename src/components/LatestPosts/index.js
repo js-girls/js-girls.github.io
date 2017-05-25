@@ -23,6 +23,7 @@ const LatestPosts = (props, { collection }) => {
       <PagesList pages={ latestPosts } />
     </div>
   )
+
 }
 
 LatestPosts.propTypes = {

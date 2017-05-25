@@ -7,7 +7,7 @@ cta:
   text: JS Girls is a one-day workshop with the aim of helping women getting to know the world of JavaScript, the most used programming language in the world.
 ---
 
-## About
+## ABOUT
 
 During the day, tutors will follow you and guide you through the creation of a basic application. This experience will give you the instruments to get an idea of how it is to be a developer. Don’t worry if you don’t understand everything, JS Girls is not a training course and we don’t have the presumption to teach you how to program in one day. Our objective is to give you the instruments to know if JavaScript is something you could like or not.
 

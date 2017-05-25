@@ -5,7 +5,7 @@ import styles from "./index.css"
 const MediaPartners = ({mediaPartners}) => (
     <div>
         <div>
-            <h2>Media Partners</h2>
+            <h2 className={ styles.title }>Media Partners</h2>
         </div>
         <div className={styles.mediaPartners}>
             {

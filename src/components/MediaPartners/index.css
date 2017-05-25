@@ -3,6 +3,11 @@
     justify-content: space-around;
 }
 
+.title{
+    margin:1rem;
+    padding:2rem;
+}
+
 .img{
     padding:.5rem;
     max-width:100%;
