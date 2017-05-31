@@ -12,10 +12,11 @@
     "build": "phenomic build",
     "pretest": "npm run lint",
     "test": "npm run build",
-    "deploy": "./scripts/deploy.sh
+    "predeploy": "npm run build",
+    "deploy": "./scripts/deploy.sh"
   },
   "phenomic": {
-    "CNAME": false
+    "CNAME": "js-girls.org"
   },
   "#babel": "webpack-(development|production) are useful for webpack 2, otherwise use development|production",
   "babel": {
