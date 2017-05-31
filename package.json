@@ -3,7 +3,7 @@
   "name": "project",
   "homepage": "http://google.com",
   "twitter": "",
-  "repository": "",
+  "repository": "https://github.com/js-girls/js-girls.github.io",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
     "lint:css": "stylelint \"src/**/*.css\"",
