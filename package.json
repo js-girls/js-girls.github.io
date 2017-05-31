@@ -16,7 +16,7 @@
     "deploy": "./scripts/deploy.sh"
   },
   "phenomic": {
-    "CNAME": "js-girls.org"
+    "CNAME": true
   },
   "#babel": "webpack-(development|production) are useful for webpack 2, otherwise use development|production",
   "babel": {
