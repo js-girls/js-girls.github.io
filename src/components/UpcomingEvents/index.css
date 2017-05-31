@@ -19,4 +19,20 @@
     display: block;
     padding:8px 12px;
     margin-bottom:5px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.cta {
+    background: #ffc918;
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin: 10px 0;
+    text-transform: uppercase;
+    display: block;
+}
+
+.cta:focus {
+    background-color: #96750a;
 }
