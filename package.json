@@ -1,8 +1,7 @@
 {
   "private": true,
   "name": "project",
-  "homepage": "http://google.com",
-  "twitter": "",
+  "homepage": "http://js-girls.org/",
   "repository": "https://github.com/js-girls/js-girls.github.io",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",

@@ -1,5 +1,5 @@
 ---
-title: Phenomic base theme
+title: js-girls
 layout: Homepage
 hero: /assets/banner.png
 # hero credit: https://www.flickr.com/photos/pslee999/15589950511/
