@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[project]]></title><description><![CDATA[project]]></description><link>http://js-girls.org/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 31 Jul 2017 21:03:48 GMT</lastBuildDate><atom:link href="http://js-girls.org/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Welcome back to the future of static website!]]></title><description><![CDATA[<!-- start lipsum code -->
+<!-- http://www.deloreanipsum.com/ -->
+<p>Ahh. Hey, Doc, we better back up, we don't have enough roads to get up to 88. Hi. Where were we. In that case, I'll tell you strait out.</p>
+<p>Thank you, don't forget to take a flyer. Look, I'm just not ready to ask Lorraine out to the dance, and not you, nor anybody else on this planet is gonna make me change my mind. Over there, on my hope chest. I've never seen purple underwear before, Calvin. What's with the life preserver? Working.</p>
+<p>I still don't understand, how am I supposed to go to the dance with her, if she's already going to the dance with you. Our first television set, Dad just picked it up today. Do you have a television? I hope so. Uh, look me up when you get there. Stand tall, boy, have some respect for yourself. Don't you know that if you let people walk all over you know, they'll be walking all over you for the rest of your life? Listen to me, do you think I'm gonna spend the rest of my life in this slop house?</p>
+<p>Where were we. That's for messing up my hair. I'm sure that in 1985, plutonium is available at every corner drug store, but in 1955, it's a little hard to come by. Marty, I'm sorry, but I'm afraid you're stuck here. Where's Einstein, is he with you? Listen, this is very important, I forgot my video camera, could you stop by my place and pick it up on your way to the mall?</p>
+<p>Hi. Now Biff, don't con me. Of course I do. Just a second, let's see if I could find it. George, buddy. remember that girl I introduced you to, Lorraine. What are you writing? Let's go.</p>
+<!-- end lipsum code -->
+]]></description><link>http://js-girls.org/posts/hello-world/</link><guid isPermaLink="true">http://js-girls.org/posts/hello-world/</guid><pubDate>Sun, 14 Feb 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[First Post, no hero.]]></title><description><![CDATA[<p>This is the first post!</p>
+<p>Code is highlighted by default.</p>
+<pre><code class="hljs language-js"><span class="hljs-keyword">const</span> StatelessComponent = <span class="hljs-function">(<span class="hljs-params">props</span>) =></span> {
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">div</span>></span>
+      I‘m a stateless component that accepts children
+      { props.children }
+    <span class="hljs-tag">&#x3C;/<span class="hljs-name">div</span>></span></span>
+  )
+}
+
+<span class="hljs-comment">// ...</span>
+
+  <span class="hljs-keyword">return</span> (
+    <span class="xml"><span class="hljs-tag">&#x3C;<span class="hljs-name">StatelessComponent</span>></span>
+      Example of child
+    <span class="hljs-tag">&#x3C;/<span class="hljs-name">StatelessComponent</span>></span></span>
+  )</code></pre>
+]]></description><link>http://js-girls.org/posts/first-post/</link><guid isPermaLink="true">http://js-girls.org/posts/first-post/</guid><pubDate>Fri, 22 Jan 2016 00:00:00 GMT</pubDate></item></channel></rss>

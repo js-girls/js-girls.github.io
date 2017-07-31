@@ -1,0 +1,784 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);/* Using global sytles is not recommended, prefer local styles via CSS Modules */
+
+/*
+ * box model like it should be
+ *
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+
+html { box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*
+ * kill document defaults margin & padding. We all do that all the time, right ?
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * page styles
+ */
+html {
+  min-height: 100%;
+  background: rgb(250, 253, 255);
+}
+
+body {
+  color: #555;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: 'Roboto Mono', monospace;
+
+  /* system font https://medium.com/designing-medium/system-shock-6b1dc6d6596f */
+  /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+*/}
+
+/*
+ * .phenomic-HeadingAnchor
+ *
+ * anchors for markdown headings, generated via markdown renderer, so require
+ * global styling
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+}
+
+.phenomic-HeadingAnchor {
+  display: inline-block;
+  text-align: center;
+  margin-left: -1.8rem;
+  margin-right: 0.4rem;
+  width: 1.4rem;
+  line-height: 1.4rem;
+  text-decoration: none;
+  opacity: 0.1;
+  transition: opacity 0.2s
+}
+
+h1:hover .phenomic-HeadingAnchor,
+h2:hover .phenomic-HeadingAnchor,
+h3:hover .phenomic-HeadingAnchor,
+h4:hover .phenomic-HeadingAnchor,
+h5:hover .phenomic-HeadingAnchor,
+h6:hover .phenomic-HeadingAnchor{ opacity: 1; }
+
+/* minimal styling, prefer removing this and use local styles */
+a {
+  color: inherit;
+  text-decoration: none
+}
+a:hover{ text-decoration: underline; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #8C8D91;
+  opacity: 0.2;
+  margin: 2rem 0;
+}
+p{
+  color: white;
+}
+
+
+h2, h3{
+  color: #ec00ff;
+}
+
+h2{
+  font-size:24px;
+}
+
+/**
+ * You can try all official Highlight.js theme here
+ *
+ * https://highlightjs.org/static/demo/
+ *
+ * More themes here
+ *
+ * https://github.com/isagalaev/highlight.js/tree/master/src/styles
+ */
+
+/*
+
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #c678dd;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e06c75;
+}
+
+.hljs-literal {
+  color: #56b6c2;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: #98c379;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #e6c07b;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #d19a66;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #61aeee;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+._2Mf6m {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+._2gGRo {
+  position: absolute;
+  /* stretch */
+  left: 0;
+  right: 0;
+
+  color: #FBFCFC;
+}
+.ENT8c{
+  max-width:100%;
+  display: block;
+  height:auto;
+  margin: 2vh 4vw;
+}
+
+._2frUm {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  max-width: 61rem;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 3rem;
+}
+
+._37D8R,
+._3VLYQ {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.Ezg15 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0 0.5rem;
+  color: inherit;
+  text-decoration: none !important;
+  opacity: 0.6;
+  transition: 0.4s all;
+  border-bottom: 1px solid transparent
+}
+
+.Ezg15:hover,
+  .Ezg15:focus {
+  color: inherit;
+  opacity: 1;
+  border-bottom-color: #FBFCFC;
+}
+
+.Ezg15 svg {
+  fill: currentColor;
+  opacity: 0.5;
+  margin-right: 0.5rem;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .ENT8c{
+    margin: 0 auto;
+  }
+}
+._116Tm {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+._2eL9b{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+._3uJK1{
+    margin:1rem;
+    padding:2rem;
+}
+
+._2rWMP{
+    padding:.5rem;
+    max-width:100%;
+    display: block;
+    height:auto;
+    margin: 0 auto;
+}
+
+@media  (max-width:767px) {
+    ._2eL9b{
+        display: block;
+    }
+}._2dyGP {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    color: inherit;
+    text-decoration: none;
+}
+
+.sjCNm {
+    font-weight: 100;
+}._1Ustb {
+  background: #1b002c;
+  text-align: center;
+  border-top: 1px solid #ec00ff;
+}
+
+._7JKKr{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+._3p9Yg{
+    margin:1rem;
+}
+
+._1OZp3{
+    padding:.5rem;
+    max-width:100%;
+    display: block;
+    height:auto;
+    margin:0 auto;
+}
+
+._3Xo9h:not(:first-child) {
+    bottom: -27px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    ._7JKKr {
+        display: block;
+    }
+}._1mmZb {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0 1rem;
+  line-height: 2rem;
+  font-weight: 100;
+  text-align: center;
+  border-radius: 3px;
+
+  transition: .2s all;
+
+  color: #007acc;
+  border: 1px solid #007acc;
+  background: rgba(251, 252, 252, 0.2)
+}
+
+._1mmZb:hover {
+  text-decoration: none;
+  color: #1b002c;
+  border: 1px solid #1b002c
+}
+
+._1w6mX {
+  color: #46BE77;
+  border: 1px solid #46BE77
+}
+
+._1w6mX:hover {
+  color: #22846C;
+  border: 1px solid #22846C
+}
+
+._2zz8t {
+  color: #FBFCFC;
+  border: 1px solid #FBFCFC
+}
+
+._2zz8t:hover {
+  color: #FBFCFC;
+  border: 1px solid #FBFCFC;
+  background: rgba(251, 252, 252, 0.3)
+}
+
+
+._35BEo {
+  font-size: 1.5rem;
+  padding: 0 2rem;
+  line-height: 3rem;
+}
+._1KhX5 {
+  display: -ms-flexbox;
+  display: flex;
+  height: 25vh;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+._3i5XI {
+  height: 5vh;
+  min-height: 5rem;
+  width: 5vh;
+  min-width: 5rem;
+  border: 6px solid rgba(0, 0, 0, 0.2);
+  border-top-color: rgba(0, 0, 0, 0.8);
+  border-radius: 100%;
+  animation: _3H5Gy 0.6s infinite linear 0.25s;
+
+  /* the opacity is used to lazyload the spinner, see animation delay */
+  opacity: 0;
+}
+
+@keyframes _3H5Gy {
+  from {
+    opacity: 1;
+    transform: rotate(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotate(359deg);
+  }
+}
+.sFWsg {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.hOK0m {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 100%;
+  max-width: 60rem;
+  padding: 1rem 0.75rem;
+}
+
+._3p2ZP {
+  /* fallback, mainly visible when hero image is loading */
+  background-color: #46BE77;
+  /* fallback when there is no hero image */
+  background: radial-gradient(
+      ellipse at 50% 50%,
+      rgb(108, 203, 148) 15%,
+      #46BE77 70%
+    );
+}
+
+._3wrxV {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 5rem 0;
+  padding: 10vh 0;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    #1b002c,
+    rgba(0, 122, 204, 0.2)
+  );
+}
+
+._1Tkeg {
+  color: #FBFCFC;
+  text-shadow: 0 0 10px #1b002c,
+    0 0 6px #111,
+    0 0 2px #111;
+  letter-spacing: 1px;
+}
+
+.mlJD2 {
+  margin-top: 2rem;
+}
+
+._1z1n5 {
+  margin: 1rem 0;
+}
+
+._30RKo {
+
+  /* handy for content */
+}
+
+._30RKo a {
+  color: #007acc;
+  transition: all 0.2s;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+._30RKo a:hover {
+  opacity: 1;
+  color: rgb(0, 107, 179);
+  border-bottom-color: #007acc;
+}
+
+._30RKo img {
+  max-width: 100%;
+}
+._1Zu4s {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  min-height: 50vh;
+  padding: 1rem 0;
+}
+
+._2vfNd {
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #ddd;
+}
+
+._3DufC {
+  margin: 4rem 0;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+}
+._1ExBa {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background: #1b002c;
+}
+
+.ZhM_j {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 100%;
+  max-width: 60rem;
+  padding: 1rem 0.75rem;
+}
+
+._2Xhbi {
+  /* fallback, mainly visible when hero image is loading */
+  background-color: #46BE77;
+  /* fallback when there is no hero image */
+  background:
+
+}
+
+._2uivS{
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+
+._2DRh5 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 5rem 0;
+  padding: 10vh 0;
+  text-align: center;
+  background: linear-gradient(transparent, #1b002c);
+  height: 400px;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+._1R64v {
+  color: #FBFCFC;
+  text-shadow: 0 0 10px #1b002c,
+    0 0 6px #111,
+    0 0 2px #111;
+  letter-spacing: 1px;
+}
+
+._13Yv6 {
+  margin-top: 2rem;
+}
+
+
+._3Rhu7 {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom:10rem;
+}
+
+._1sc3d {
+  min-width: 300px;
+  margin: 0 30px;
+}
+
+._3XhkE {
+
+  /* handy for content */
+}
+
+._3XhkE a {
+  color: #007acc;
+  transition: all 0.2s;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+._3XhkE a:hover {
+  opacity: 1;
+  color: rgb(0, 107, 179);
+  border-bottom-color: #007acc;
+}
+
+._3XhkE img {
+  max-width: 100%;
+}
+
+p{
+  color: white;
+}
+
+
+h2, h3{
+  color: #ec00ff;
+}
+
+h2{
+  font-size:25px;
+}
+
+@media (min-width: 769px) {
+  .gtpXi {
+    margin: -4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .ZhM_j {
+    padding: 1rem 1.5rem;
+  }
+  ._3Rhu7 {
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+  }
+  ._1sc3d {
+    width: 100%;
+    margin: 0;
+    min-width:0;
+  }
+  ._2DRh5{
+    padding:5rem 0 0 0;
+    height:100%;
+  }
+}
+.sdvYP {
+    color: #ec00ff;
+    text-align: center;
+}
+
+._2kCie {
+    color: #ec00ff;
+    font-weight:bold;
+    font-size:20px;
+}
+
+._2wuYP {
+    color: white;
+}
+
+._1FuRE{
+    border:2px solid blueviolet;
+    display: block;
+    padding:8px 12px;
+    margin-bottom:5px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+._3wr-f {
+    background: #ffc918;
+    padding: 12px;
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+    margin: 10px 0;
+    text-transform: uppercase;
+    display: block;
+}
+
+._3wr-f:focus {
+    background-color: #96750a;
+}
+._1eeKI {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  max-width: 40rem;
+  margin: 1rem auto;
+  padding: 1rem 0;
+}
+
+._2mH_g {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+._2l2N1 {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+._1-sEy {
+  font-size: 0.85rem;
+}
+
+.niUXw {
+  /* align-self: center; */
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 1rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  text-align: center;
+  border-bottom: 0 !important;
+  text-decoration: none !important;
+}
+.lfRQE {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+
+  list-style: none;
+  padding: 0;
+}
+._1vSY4 {
+  text-align: center;
+}
+._2BJ2- {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  opacity: 0.6;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
