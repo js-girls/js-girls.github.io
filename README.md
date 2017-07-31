@@ -1,4 +1,8 @@
-# [Phenomic](https://github.com/MoOx/phenomic) phenomic-theme-base
+# JS-Girls
+
+
+## Built with
+[Phenomic](https://github.com/MoOx/phenomic) phenomic-theme-base
 
 ## Install dependencies
 
@@ -17,6 +21,15 @@ npm start
 ```sh
 npm run build
 ```
+
+
+## deploy on github pages
+
+```sh
+./scripts/deploy.sh
+```
+this script will generate a production build and push it on master 
+
 ## code of conduct
 
 By participating, you are expected to honor this code.
