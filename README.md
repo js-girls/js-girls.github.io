@@ -25,6 +25,12 @@ npm run build
 
 ## deploy on github pages
 
+build production build
+
+```sh
+yarn build
+```
+
 ```sh
 ./scripts/deploy.sh
 ```
